@@ -1,6 +1,6 @@
 /**
-* Template Name: iPortofolio
-* Template URL: https://bootstrapmade.com/iPortofolio-bootstrap-Portofolio-websites-template/
+* Template Name: iPortfolio
+* Template URL: https://bootstrapmade.com/iPortfolio-bootstrap-Portfolio-websites-template/
 * Updated: Jun 29 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/

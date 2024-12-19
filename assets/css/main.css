@@ -1,6 +1,6 @@
 /**
-* Template Name: iPortofolio
-* Template URL: https://bootstrapmade.com/iPortofolio-bootstrap-Portofolio-websites-template/
+* Template Name: iPortfolio
+* Template URL: https://bootstrapmade.com/iPortfolio-bootstrap-Portfolio-websites-template/
 * Updated: Jun 29 2024 with Bootstrap v5.3.3
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
@@ -778,16 +778,16 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portofolio Section
+# Portfolio Section
 --------------------------------------------------------------*/
-.Portofolio .Portofolio-filters {
+.Portfolio .Portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.Portofolio .Portofolio-filters li {
+.Portfolio .Portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 0;
@@ -800,36 +800,36 @@ section,
   transition: all 0.3s ease-in-out;
 }
 
-.Portofolio .Portofolio-filters li:hover,
-.Portofolio .Portofolio-filters li.filter-active {
+.Portfolio .Portfolio-filters li:hover,
+.Portfolio .Portfolio-filters li.filter-active {
   color: var(--accent-color);
 }
 
-.Portofolio .Portofolio-filters li:first-child {
+.Portfolio .Portfolio-filters li:first-child {
   margin-left: 0;
 }
 
-.Portofolio .Portofolio-filters li:last-child {
+.Portfolio .Portfolio-filters li:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 575px) {
-  .Portofolio .Portofolio-filters li {
+  .Portfolio .Portfolio-filters li {
     font-size: 14px;
     margin: 0 5px;
   }
 }
 
-.Portofolio .Portofolio-content {
+.Portfolio .Portfolio-content {
   position: relative;
   overflow: hidden;
 }
 
-.Portofolio .Portofolio-content img {
+.Portfolio .Portfolio-content img {
   transition: 0.3s;
 }
 
-.Portofolio .Portofolio-content .Portofolio-info {
+.Portfolio .Portfolio-content .Portfolio-info {
   opacity: 0;
   position: absolute;
   inset: 0;
@@ -839,7 +839,7 @@ section,
   padding: 15px;
 }
 
-.Portofolio .Portofolio-content .Portofolio-info h4 {
+.Portfolio .Portfolio-content .Portfolio-info h4 {
   font-size: 14px;
   padding: 5px 10px;
   font-weight: 400;
@@ -848,7 +848,7 @@ section,
   background-color: var(--accent-color);
 }
 
-.Portofolio .Portofolio-content .Portofolio-info p {
+.Portfolio .Portfolio-content .Portfolio-info p {
   position: absolute;
   bottom: 10px;
   text-align: center;
@@ -860,8 +860,8 @@ section,
   color: rgba(255, 255, 255, 0.8);
 }
 
-.Portofolio .Portofolio-content .Portofolio-info .preview-link,
-.Portofolio .Portofolio-content .Portofolio-info .details-link {
+.Portfolio .Portfolio-content .Portfolio-info .preview-link,
+.Portfolio .Portfolio-content .Portfolio-info .details-link {
   position: absolute;
   left: calc(50% - 40px);
   font-size: 26px;
@@ -871,22 +871,22 @@ section,
   line-height: 1.2;
 }
 
-.Portofolio .Portofolio-content .Portofolio-info .preview-link:hover,
-.Portofolio .Portofolio-content .Portofolio-info .details-link:hover {
+.Portfolio .Portfolio-content .Portfolio-info .preview-link:hover,
+.Portfolio .Portfolio-content .Portfolio-info .details-link:hover {
   color: var(--accent-color);
 }
 
-.Portofolio .Portofolio-content .Portofolio-info .details-link {
+.Portfolio .Portfolio-content .Portfolio-info .details-link {
   left: 50%;
   font-size: 34px;
   line-height: 0;
 }
 
-.Portofolio .Portofolio-content:hover .Portofolio-info {
+.Portfolio .Portfolio-content:hover .Portfolio-info {
   opacity: 1;
 }
 
-.Portofolio .Portofolio-content:hover img {
+.Portfolio .Portfolio-content:hover img {
   transform: scale(1.1);
 }
 
@@ -1142,34 +1142,34 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portofolio Details Section
+# Portfolio Details Section
 --------------------------------------------------------------*/
-.Portofolio-details .Portofolio-details-slider img {
+.Portfolio-details .Portfolio-details-slider img {
   width: 100%;
 }
 
-.Portofolio-details .Portofolio-details-slider .swiper-pagination {
+.Portfolio-details .Portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.Portofolio-details .Portofolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.Portfolio-details .Portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.Portofolio-details .Portofolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.Portfolio-details .Portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
-.Portofolio-details .Portofolio-info {
+.Portfolio-details .Portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
 }
 
-.Portofolio-details .Portofolio-info h3 {
+.Portfolio-details .Portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1177,27 +1177,27 @@ section,
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
-.Portofolio-details .Portofolio-info ul {
+.Portfolio-details .Portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.Portofolio-details .Portofolio-info ul li+li {
+.Portfolio-details .Portfolio-info ul li+li {
   margin-top: 10px;
 }
 
-.Portofolio-details .Portofolio-description {
+.Portfolio-details .Portfolio-description {
   padding-top: 30px;
 }
 
-.Portofolio-details .Portofolio-description h2 {
+.Portfolio-details .Portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.Portofolio-details .Portofolio-description p {
+.Portfolio-details .Portfolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
